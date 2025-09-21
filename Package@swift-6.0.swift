@@ -17,14 +17,14 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/pointfreeco/swift-snapshot-testing", from: "1.17.4"),
+    .package(url: "https://github.com/bok-/swift-snapshot-testing-with-traits", from: "1.18.7+traits"),
     .package(url: "https://github.com/swiftlang/swift-syntax", "509.0.0"..<"603.0.0"),
   ],
   targets: [
     .target(
       name: "MacroTesting",
       dependencies: [
-        .product(name: "InlineSnapshotTesting", package: "swift-snapshot-testing"),
+        .product(name: "InlineSnapshotTesting", package: "swift-snapshot-testing-with-traits"),
         .product(name: "SwiftDiagnostics", package: "swift-syntax"),
         .product(name: "SwiftOperators", package: "swift-syntax"),
         .product(name: "SwiftParserDiagnostics", package: "swift-syntax"),

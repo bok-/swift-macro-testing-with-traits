@@ -7,6 +7,9 @@
 
 Magical testing tools for Swift macros.
 
+>[!NOTE]
+>This package is a fork of [swift-macro-testing](https://github.com/pointfreeco/swift-macro-testing). While it has no additional traits itself it depends on the `with-traits` fork of [swift-snapshot-testing](https://github.com/pointfreeco/swift-snapshot-testing). Upstream is merged sporadically.
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://pointfreeco-blog.s3.amazonaws.com/posts/0114-macro-testing/macro-testing-full-dark.gif">
   <source media="(prefers-color-scheme: light)" srcset="https://pointfreeco-blog.s3.amazonaws.com/posts/0114-macro-testing/macro-testing-full.gif">
